@@ -1,0 +1,9 @@
+{
+  "name": "WaitingUser",
+  "properties": {
+    "user_id": { "type": "string" },
+    "display_name": { "type": "string" },
+    "interests": { "type": "array", "items": { "type": "string" } },
+    "last_ping": { "type": "string", "format": "date-time" }
+  }
+}
