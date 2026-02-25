@@ -1,0 +1,15 @@
+{
+  "name": "ChatSession",
+  "properties": {
+    "user1_id": { "type": "string" },
+    "user1_name": { "type": "string" },
+    "user2_id": { "type": "string" },
+    "user2_name": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["waiting", "active", "ended"],
+      "default": "waiting"
+    },
+    "ended_by": { "type": "string" }
+  }
+}
